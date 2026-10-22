@@ -44,6 +44,9 @@ O **RESONANT** acompanha em tempo real as análises feitas no espectrômetro de 
 - 📊 **Total de análises no mês** e **total geral**.
 - 🕒 **Saída de turno agendada**, por tempo ou ao fim da fila do espectrômetro.
 - 🗂️ **Histórico completo**, com busca, filtros, exportação para Excel e sincronização.
+- 📈 **Painel de uso** com gráficos: análises por dia e semana, por núcleo, por instituição, horários de pico e ocupação do espectrômetro.
+- 🧾 **Relatórios mensais e anuais** em Excel, separados entre instituição interna e externas, com tempo de máquina e valores por tipo de análise.
+- 🔐 **Senha de administrador protegida pelo Windows** e **backup automático** na própria planilha do Google.
 - 🌗 **Visual do Windows 11**, com tema claro e escuro e em **português ou inglês**.
 - 🔄 **Atualizações automáticas e seguras**, com assinatura digital conferida antes de instalar.
 
@@ -64,6 +67,9 @@ O **RESONANT** acompanha em tempo real as análises feitas no espectrômetro de 
 - 📊 **Analyses this month** and **all-time total**.
 - 🕒 **Scheduled shift end**, after a set time or when the spectrometer queue finishes.
 - 🗂️ **Full history**, with search, filters, Excel export and synchronization.
+- 📈 **Usage dashboard** with charts: analyses per day and week, per nucleus, per institution, peak hours and spectrometer occupancy.
+- 🧾 **Monthly and annual reports** in Excel, split between the internal institution and external ones, with machine time and prices per analysis type.
+- 🔐 **Administrator password protected by Windows** and **automatic backup** in the Google spreadsheet itself.
 - 🌗 **Windows 11 look**, with light and dark themes, in **Portuguese or English**.
 - 🔄 **Safe automatic updates**: the digital signature is verified before installing.
 
@@ -76,6 +82,10 @@ O **RESONANT** acompanha em tempo real as análises feitas no espectrômetro de 
 | <img src="docs/images/main-logged-pt-light.png" width="420"> | <img src="docs/images/main-logged-en-dark.png" width="420"> |
 | **Histórico** | **History** |
 | <img src="docs/images/history-pt-light.png" width="420"> | <img src="docs/images/history-en-dark.png" width="420"> |
+| **Painel de uso** | **Usage dashboard** |
+| <img src="docs/images/dashboard-pt-light.png" width="420"> | <img src="docs/images/dashboard-en-dark.png" width="420"> |
+| **Ranking do mês** | **Activation** |
+| <img src="docs/images/main-ranking-pt-dark.png" width="420"> | <img src="docs/images/activation-en-light.png" width="420"> |
 | **Configurações** | **Settings** |
 | <img src="docs/images/settings-pt-light.png" width="420"> | <img src="docs/images/settings-en-dark.png" width="420"> |
 
