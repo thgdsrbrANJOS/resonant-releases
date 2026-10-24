@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RESONANT · Monitor de RMN</title>
+<meta name="description" content="RESONANT acompanha em tempo real as análises do espectrômetro de RMN da Bruker e registra cada uma no nome do operador, numa planilha do Google.">
+<link rel="icon" href="images/logo-light.png">
+<style>
+  :root { --bg:#f6f7f9; --card:#ffffff; --text:#1b1f24; --muted:#5b6470; --accent:#0a6ebd; --line:#e3e6ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181c; --card:#1f2228; --text:#eceff3; --muted:#a3abb6; --accent:#5cb4ff; --line:#2d3139; } }
+  * { box-sizing:border-box }
+  body { margin:0; font-family:"Segoe UI Variable Text","Segoe UI",system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.6 }
+  main { max-width:860px; margin:0 auto; padding:48px 20px 64px }
+  header { text-align:center; margin-bottom:36px }
+  header img { width:150px; height:auto }
+  h1 { font-size:40px; margin:8px 0 4px; letter-spacing:.5px }
+  .tagline { color:var(--muted); font-size:18px; margin:0 }
+  .cta { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:24px }
+  .btn { display:inline-block; padding:11px 22px; border-radius:8px; text-decoration:none; font-weight:600; border:1px solid var(--line); color:var(--text); background:var(--card) }
+  .btn.primary { background:var(--accent); color:#fff; border-color:var(--accent) }
+  section { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:24px 28px; margin-bottom:16px }
+  h2 { font-size:22px; margin:0 0 12px }
+  ul { padding-left:20px; margin:0 }
+  li { margin:6px 0 }
+  .shot { width:100%; border-radius:10px; border:1px solid var(--line); margin-top:8px }
+  footer { text-align:center; color:var(--muted); font-size:14px; margin-top:32px }
+  footer a, section a { color:var(--accent) }
+  .lang { color:var(--muted); font-size:14px; text-transform:uppercase; letter-spacing:1px; margin:40px 0 12px }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="images/logo-dark.png">
+      <img src="images/logo-light.png" alt="RESONANT">
+    </picture>
+    <h1>RESONANT</h1>
+    <p class="tagline">Controle de turno e registro automático das análises de RMN</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/thgdsrbrANJOS/resonant-releases/releases/latest">Baixar a versão mais recente</a>
+      <a class="btn" href="privacidade.html">Política de Privacidade</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>O que é</h2>
+    <p>O RESONANT é um programa para Windows que acompanha, em tempo real, as análises feitas no espectrômetro de RMN da Bruker (TopSpin e IconNMR). Cada experimento novo é vinculado ao operador que está em turno e registrado automaticamente numa planilha do Google Sheets do próprio laboratório.</p>
+  </section>
+
+  <section>
+    <h2>Como funciona</h2>
+    <ul>
+      <li>O operador escolhe o nome, digita a senha e inicia o turno.</li>
+      <li>O RESONANT lê os arquivos <code>acqus</code> e <code>title</code> de cada experimento: data, núcleo, pulso, solvente, instituição e solicitante.</li>
+      <li>A análise vai para o histórico local e para a planilha do laboratório. Sem internet, fica na fila até a conexão voltar.</li>
+      <li>O laboratório conecta a própria conta Google: o RESONANT cria a planilha e guarda os backups no Drive dessa conta, com acesso apenas aos arquivos que ele mesmo cria.</li>
+      <li>Painel de uso, relatórios mensais e anuais por instituição e ranking dos operadores.</li>
+    </ul>
+    <img class="shot" src="images/main-logged-pt-light.png" alt="Tela principal do RESONANT">
+  </section>
+
+  <p class="lang">English</p>
+  <section>
+    <h2>What it is</h2>
+    <p>RESONANT is a Windows program that monitors the analyses run on a Bruker NMR spectrometer (TopSpin and IconNMR) in real time. Each new experiment is linked to the operator on shift and automatically logged to the laboratory's own Google Sheets spreadsheet. The lab connects its own Google account: RESONANT creates the spreadsheet and stores backups in that account's Drive, with access only to the files it creates itself.</p>
+    <p><a href="privacidade.html#english">Privacy Policy</a> · <a href="https://github.com/thgdsrbrANJOS/resonant-releases/releases/latest">Download</a></p>
+  </section>
+
+  <footer>
+    Desenvolvido por / Developed by <b>Thiago Anjos</b> · <a href="mailto:thgdsrbr@gmail.com">thgdsrbr@gmail.com</a> · © 2026
+  </footer>
+</main>
+</body>
+</html>
