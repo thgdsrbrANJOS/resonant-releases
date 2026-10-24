@@ -40,6 +40,7 @@ O **RESONANT** acompanha em tempo real as análises feitas no espectrômetro de 
 4. **Nenhuma análise se perde.** Se alguém usar o RMN sem fazer login, o RESONANT avisa na hora e registra a análise assim que um operador iniciar o turno.
 
 ### Destaques
+- 🔗 **Conectar com Google em 1 clique:** o RESONANT cria a planilha e guarda os backups no Drive da conta do laboratório, com acesso apenas aos arquivos que ele mesmo cria.
 - 🏆 **Ranking mensal dos operadores** por tempo de turno, com coroas de ouro, prata e bronze.
 - 📊 **Total de análises no mês** e **total geral**.
 - 🕒 **Saída de turno agendada**, por tempo ou ao fim da fila do espectrômetro.
@@ -63,6 +64,7 @@ O **RESONANT** acompanha em tempo real as análises feitas no espectrômetro de 
 4. **No analysis is lost.** If someone uses the NMR without logging in, RESONANT warns right away and records the analysis as soon as an operator starts a shift.
 
 ### Highlights
+- 🔗 **One-click Connect with Google:** RESONANT creates the spreadsheet and keeps backups in the lab's own Google Drive, with access only to the files it creates itself.
 - 🏆 **Monthly operator ranking** by shift time, with gold, silver and bronze crowns.
 - 📊 **Analyses this month** and **all-time total**.
 - 🕒 **Scheduled shift end**, after a set time or when the spectrometer queue finishes.
@@ -86,11 +88,14 @@ O **RESONANT** acompanha em tempo real as análises feitas no espectrômetro de 
 | <img src="docs/images/dashboard-pt-light.png" width="420"> | <img src="docs/images/dashboard-en-dark.png" width="420"> |
 | **Ranking do mês** | **Activation** |
 | <img src="docs/images/main-ranking-pt-dark.png" width="420"> | <img src="docs/images/activation-en-light.png" width="420"> |
+| **Conectar com Google** | **Title guide** |
+| <img src="docs/images/wizard-pt-dark.png" width="420"> | <img src="docs/images/titleguide-en-light.png" width="420"> |
 | **Configurações** | **Settings** |
 | <img src="docs/images/settings-pt-light.png" width="420"> | <img src="docs/images/settings-en-dark.png" width="420"> |
 
 ---
 
 <p align="center">
-  Desenvolvido por / Developed by <b>Thiago Anjos</b> · © 2026
+  Desenvolvido por / Developed by <b>Thiago Anjos</b> · © 2026<br>
+  <a href="https://thgdsrbranjos.github.io/resonant-releases/">Site</a> · <a href="https://thgdsrbranjos.github.io/resonant-releases/privacidade.html">Política de Privacidade / Privacy Policy</a> · thgdsrbr@gmail.com
 </p>
